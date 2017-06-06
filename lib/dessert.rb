@@ -1,4 +1,5 @@
 class Dessert
+  attr_accessor :name, :calories
   def initialize(name, calories=1)
     # your code here
     @name = name.to_s
@@ -45,3 +46,8 @@ class JellyBean < Dessert
     return "licorice" != @flavor ? true : false
   end
 end
+
+
+
+
+    
